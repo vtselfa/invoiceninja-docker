@@ -16,10 +16,10 @@ services:
       - invoiceninja
 
   app:
-    image: invoiceninja/invoiceninja:alpine
+    image: invoiceninja/invoiceninja:latest
     restart: always
     environment: 
-      - APP_URL=https://localhost
+      - APP_URL=http://server
       - APP_KEY=QbGTQrFDvWM7TZEBXTt9YCVJDpzqh6Kk
       - DB_HOST=db
     volumes:
