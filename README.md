@@ -42,7 +42,7 @@ You can create these folders wherever you want on your host system.
 Run this on your host system
 
 ```shell
-chown -R 1000:101 /var/invoiceninja/public /var/invoiceninja/storage
+chown -R 1000:1001 /var/invoiceninja/public /var/invoiceninja/storage
 ```
 
 to apply the proper permission to the folders. This also applies to the `docker-compose` setup when using [bind-mounted host directories](https://github.com/invoiceninja/dockerfiles/blob/master/docker-compose.yml#L17).
